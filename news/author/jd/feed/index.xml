@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>. . &#8211; CSA: Cyber Security Association @ BYU-Idaho</title>
+	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
+	<link>./../../../../index.html</link>
+	<description></description>
+	<lastBuildDate>Sun, 11 Oct 2020 02:10:09 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+
+<image>
+	<url>./../../../../assets/images/cropped-icon-greensquare-32x32.png</url>
+	<title>. . &#8211; CSA: Cyber Security Association @ BYU-Idaho</title>
+	<link>./../../../../index.html</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Apple pays 20 year old white-hat hacker and his team $288,000 for 3 months of work.</title>
+		<link>./../../../apple-bug-bounty2020/index.html</link>
+		
+		<dc:creator><![CDATA[. .]]></dc:creator>
+		<pubDate>Sun, 11 Oct 2020 02:08:42 +0000</pubDate>
+				<category><![CDATA[News]]></category>
+		<guid isPermaLink="false">./../../../../index.html?p=1352</guid>
+
+					<description><![CDATA[Cyber Security specialists are needed.  "40 percent of security leaders in a recent study from Ostermann Research and Immersive Labs said they aren’t confident in their team of responders precisely because they feel security has failed to adapt to today’s threats."]]></description>
+										<content:encoded><![CDATA[
+<p class="has-drop-cap"><strong>Note from CSA Editor: </strong> Welcome to Bug Hunting! Sam Curry&#8217;s focus has been web applications + APIs + Security. There are a lot of ways to succeed in Cybersecurity. Sam is an example of one way you can do it.</p>
+
+
+
+<p><strong>Original Source:</strong> <br><a href="https://arstechnica.com/information-technology/2020/10/white-hat-hackers-who-had-control-of-internal-apple-network-get-288000-reward/" target="_blank" rel="noreferrer noopener">https://arstechnica.com/information-technology/2020/10/white-hat-hackers-who-had-control-of-internal-apple-network-get-288000-reward/</a></p>
+
+
+
+<h2>&#8220;In all, Curry’s team found and reported 55 vulnerabilities with the severity of 11 rated critical, 29 high, 13 medium, and two low.&#8221;</h2>
+
+
+
+<p>For months, Apple’s corporate network was at risk of hacks that could have stolen sensitive data from potentially millions of its customers and executed malicious code on their phones and computers, a security researcher said on Thursday.</p>
+
+
+
+<p><a href="https://twitter.com/samwcyo">Sam Curry</a>, a 20-year-old researcher who specializes in website security, said that, in total, he and his team found 55 vulnerabilities. He rated 11 of them critical because they allowed him to take control of core Apple infrastructure and from there steal private emails, iCloud data, and other private information.</p>
+
+
+
+<p>The 11 critical bugs were:</p>
+
+
+
+<ul><li>Remote Code Execution via Authorization and Authentication Bypass</li><li>Authentication Bypass via Misconfigured Permissions allows Global Administrator Access</li><li>Command Injection via Unsanitized Filename Argument</li><li>Remote Code Execution via Leaked Secret and Exposed Administrator Tool</li><li>Memory Leak leads to Employee and User Account Compromise allowing access to various internal applications</li><li>Vertica SQL Injection via Unsanitized Input Parameter</li><li>Wormable Stored XSS allows Attacker to Fully Compromise Victim iCloud Account</li><li>Wormable Stored XSS allows Attacker to Fully Compromise Victim iCloud Account</li><li>Full Response SSRF allows Attacker to Read Internal Source Code and Access Protected Resources</li><li>Blind XSS allows Attacker to Access Internal Support Portal for Customer and Employee Issue Tracking</li><li>Server-Side PhantomJS Execution allows attacker to Access Internal Resources and Retrieve AWS IAM Keys</li></ul>
+
+
+
+<p>&nbsp;</p>
+
+
+
+<p><img width="800" height="534" class="wp-image-1353" style="width: 600px;" src="./../../../../assets/images/news-applehacker.jpg" alt="" srcset="./../../../../assets/images/news-applehacker.jpg 800w, ./../../../../assets/images/news-applehacker-300x200.jpg 300w, ./../../../../assets/images/news-applehacker-150x100.jpg 150w, ./../../../../assets/images/news-applehacker-768x513.jpg 768w" sizes="(max-width: 800px) 100vw, 800px" />&nbsp;</p>
+
+
+
+<h2>Two of the worst</h2>
+
+
+
+<p>Among the most serious risks were those posed by a stored&nbsp;<a href="https://owasp.org/www-community/attacks/xss/">cross-site scripting vulnerability</a>&nbsp;(typically abbreviated as XSS) in JavaScript parser that’s used by the servers at www.iCloud.com. Because iCloud provides service to Apple Mail, the flaw could be exploited by sending someone with an iCloud.com or Mac.com address an email that included malicious characters.</p>
+
+
+
+<p>The target need only open the email to be hacked. Once that happened, a script hidden inside the malicious email allowed the hacker to carry out any actions the target could when accessing iCloud in the browser. Below is a video showing a proof-of-concept exploit that sent all of the target’s photos and contacts to the attacker.</p>
+
+
+
+<p>Curry said the stored XSS vulnerability was wormable, meaning it could spread from user to user when they did nothing more than open the malicious email. Such a worm would have worked by including a script that sent a similarly crafted email to every iCloud.com or Mac.com address in the victims’ contact list.</p>
+
+
+
+<p>A separate vulnerability, in a site reserved for Apple Distinguished Educators, was the result of it assigning a default password—“###INvALID#%!3” (not including the quotation marks)—when someone submitted an application that included a username, first and last name, email address, and employer.</p>
+
+
+
+<p>“If anyone had applied using this system and there existed functionality where you could manually authenticate, you could simply login to their account using the default password and completely bypass the ‘Sign In With Apple’ login,” Curry wrote.</p>
+
+
+
+<p>Eventually, the hackers were able to use bruteforcing to divine a user with the name “erb” and, with that, to manually log in to the user’s account. The hackers then went on to log in to several other user accounts, one of which had “core administrator” privileges on the network. The image below shows the Jive console, used to run online forums, that they saw.</p>
+
+
+
+<p>With control over the interface, the hackers could have executed arbitrary commands on the Web server controlling the ade.apple.com subdomain and accessed internal&nbsp;<a href="https://en.wikipedia.org/wiki/Lightweight_Directory_Access_Protocol">LDAP service</a>&nbsp;that stores user account credentials. With that, they could have accessed much of Apple’s remaining internal network.</p>
+
+
+
+<h2>Freaking out</h2>
+
+
+
+<p>In all, Curry’s team found and reported 55 vulnerabilities with the severity of 11 rated critical, 29 high, 13 medium, and two low. The list and the dates they were found are listed in Curry’s blog post, which is linked above.</p>
+
+
+
+<p>As the list above makes clear, the hacks detailed here are only two of a long list Curry and his team were able to carry out. They performed them under Apple’s bug-bounty program. Curry’s post said Apple paid a total of $51,500 in exchange for the private reports relating to four vulnerabilities.</p>
+
+
+
+<p>As I was in the process of reporting and writing this post, Curry said he received an email from Apple informing him that the company was paying an additional $237,000 for 28 other vulnerabilities.</p>
+
+
+
+<p>“My reply to the email was: ‘Wow! I am in a weird state of shock right now,’” Curry told me. “I’ve never been paid this much at once. Everyone in our group is still a bit freaking out.”</p>
+
+
+
+<p>He said he expects the total payout could exceed $500,000 once Apple digests all the reports.</p>
+
+
+
+<p><strong>Read the full article &#8211; here&#8230;</strong> <a href="https://www.scmagazine.com/home/security-news/whats-really-changed-three-years-after-equifax-breach/" target="_blank" rel="noreferrer noopener"><br></a><a href="https://arstechnica.com/information-technology/2020/10/white-hat-hackers-who-had-control-of-internal-apple-network-get-288000-reward/" target="_blank" rel="noreferrer noopener">https://arstechnica.com/information-technology/2020/10/white-hat-hackers-who-had-control-of-internal-apple-network-get-288000-reward/</a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Security Opportunity &#8220;What’s really changed three years after Equifax breach?&#8221;</title>
+		<link>./../../../security-opportunity-whats-really-changed-three-years-after-equifax-breach/index.html</link>
+		
+		<dc:creator><![CDATA[. .]]></dc:creator>
+		<pubDate>Mon, 14 Sep 2020 17:53:06 +0000</pubDate>
+				<category><![CDATA[News]]></category>
+		<guid isPermaLink="false">./../../../../index.html?p=1296</guid>
+
+					<description><![CDATA[Cyber Security specialists are needed.  "40 percent of security leaders in a recent study from Ostermann Research and Immersive Labs said they aren’t confident in their team of responders precisely because they feel security has failed to adapt to today’s threats."]]></description>
+										<content:encoded><![CDATA[
+<p class="has-drop-cap"><strong>Note from CSA Editor: </strong>Good Cyber Security specialists are REALLY needed.  According to the article 40% of employers think their staff has failed to adapt.  The KEY to a successful cyber security operations is an continual improvement program, which means you should always be learning, testing new things in a lab, and strengthening your defenses.  The bigger the company, the more they are a target and the more they need someone like you.</p>
+
+
+
+<p><strong>Original Source &#8211; SC Magazine:</strong> <a rel="noreferrer noopener" href="https://www.scmagazine.com/home/security-news/whats-really-changed-three-years-after-equifax-breach/" target="_blank">https://www.scmagazine.com/home/security-news/whats-really-changed-three-years-after-equifax-breach/</a></p>
+
+
+
+<h2>&#8220;40 percent of security leaders in a recent study from Ostermann Research and Immersive Labs said they aren’t confident in their team of responders precisely because they feel security has failed to adapt to today’s threats.&#8221;</h2>
+
+
+
+<p>Are organizations better off today than they were three years ago when a devastating breach at Equifax exposed sensitive customer data and poor security practices in equal measure?</p>
+
+
+
+<p>The consensus among experts is that companies still have a ways to go.</p>
+
+
+
+<p>“Unfortunately, not much has changed,” said Greg Foss, senior threat researcher from VMware Carbon Black.</p>
+
+
+
+<p></p>
+
+
+
+<p><img loading="lazy" width="860" height="516" class="wp-image-1298" style="width: 600px;" src="./../../../../assets/images/news-Opportunity.jpg" alt="" srcset="./../../../../assets/images/news-Opportunity.jpg 860w, ./../../../../assets/images/news-Opportunity-300x180.jpg 300w, ./../../../../assets/images/news-Opportunity-150x90.jpg 150w, ./../../../../assets/images/news-Opportunity-768x461.jpg 768w" sizes="(max-width: 860px) 100vw, 860px" /> </p>
+
+
+
+<p>“Cyber crisis response, sadly, currently lags the threat landscape,” said Max Vetter, chief cyber officer at Immersive Labs. “This is because it is still far too static, stored in a folder..only updated and tested at infrequent intervals.”</p>
+
+
+
+<h2>Patch Management</h2>
+
+
+
+<p><strong>Keep on patching. </strong>At its core, the attack on Equifax was “opportunistic and the result of a combination of vulnerabilities that often go unnoticed in many organizations that lack proper tooling and processes to prevent common but avoidable exposures such as default credentials and patch management,” said Foss.</p>
+
+
+
+<p><strong>Read the full article &#8211; here&#8230;</strong> <a rel="noreferrer noopener" href="https://www.scmagazine.com/home/security-news/whats-really-changed-three-years-after-equifax-breach/" target="_blank">https://www.scmagazine.com/home/security-news/whats-really-changed-three-years-after-equifax-breach/</a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>HELP WANTED ‘We are outnumbered’</title>
+		<link>./../../../help-wanted-we-are-outnumbered/index.html</link>
+		
+		<dc:creator><![CDATA[. .]]></dc:creator>
+		<pubDate>Mon, 07 Sep 2020 07:35:00 +0000</pubDate>
+				<category><![CDATA[News]]></category>
+		<guid isPermaLink="false">./../../../../index.html?p=1166</guid>
+
+					<description><![CDATA[Cyber Security specialists are needed.  According to the article there are 2.4 million currently working in security and they need another 4 million people.  That's a lot of opportunity.   ]]></description>
+										<content:encoded><![CDATA[
+<p class="has-drop-cap"><strong>Note from CSA Editor: </strong>Cyber Security specialists are needed.  According to the article there are 2.4 million currently working in security and they need another 4 million people.  That&#8217;s a lot of opportunity.   In the CSA we will help introduce you to a career in cyber security as well as help develop skills that will make you a competitive candidate.  Not matter what your future job looks like, security will be part of it.  Accounting, human resources, as well as all of the technology related roles need people protecting data, employees, and companies from dishonest people who are attacking from around the globe.</p>
+
+
+
+<p><strong>Original Source:</strong> <a rel="noreferrer noopener" href="https://www.cnbc.com/2020/09/05/cyber-security-workers-in-demand.html" target="_blank">https://www.cnbc.com/2020/09/05/cyber-security-workers-in-demand.html</a></p>
+
+
+
+<h2>‘We are outnumbered’ — cybersecurity pros face a huge staffing shortage as attacks surge during the pandemic</h2>
+
+
+
+<p>The push to work from home during the coronavirus pandemic is straining cybersecurity professionals around the country tasked with ensuring workers are able to not only work efficiently from remote locations — but to do so safely. This rapid shift is a tall order for an industry that was already in need of skilled professionals long before the pandemic took hold.&nbsp;</p>
+
+
+
+<p><img loading="lazy" width="1280" height="720" class="wp-image-1172" style="width: 600px;" src="./../../../../assets/images/news-jobs.jpg" alt="" srcset="./../../../../assets/images/news-jobs.jpg 1280w, ./../../../../assets/images/news-jobs-300x169.jpg 300w, ./../../../../assets/images/news-jobs-1024x576.jpg 1024w, ./../../../../assets/images/news-jobs-150x84.jpg 150w, ./../../../../assets/images/news-jobs-768x432.jpg 768w" sizes="(max-width: 1280px) 100vw, 1280px" />&nbsp;</p>
+
+
+
+<p>Cybersecurity workers were taken off some or all of their typical security duties to assist with other IT-related tasks, including equipping mobile workforces, according to an April survey from global nonprofit (ISC)2, the largest association of certified cybersecurity professionals. The survey of 256 cyber pros found nearly half were re-tasked and that a quarter said cybersecurity incidents increased since the transition to remote work, with some seeing as many as double the number of incidents. Separate data from another nonprofit cybersecurity group, the Information Systems Security Association, found a 63% increase in cyberattacks related to the pandemic, calling Covid a “once-in-a-lifetime opportunity for hackers and online scammers.”</p>
+
+
+
+<p>“We are outnumbered—the people that are doing bad things, whether it’s a nation-state type of activity or cybercrime—the good guys and gals were vastly outnumbered prior to the pandemic,” says David Shearer, CEO of (ISC)2. “It has a compounding effect to what was already a challenge&#8230; take all of this technology we are becoming more and more reliant on and it’s scaling in a massive pace.”</p>
+
+
+
+<p>The group reported in late 2019 that 2.8 million professionals work in cybersecurity jobs globally, but the industry would need another 4 million trained workers in order to properly defend organizations and close the skills gap. That includes about half a million workers needed in the U.S. to&nbsp;<a href="https://www.cnbc.com/2019/11/01/jobs-companies-need-cybersecurity-workers-as-attacks-intensify.html">meet demand.</a>&nbsp;A separate survey of more than 300 cybersecurity professionals from ISSA shows that 70% of organizations report being impacted by the worker shortage and 45% of respondents say the cybersecurity skills shortage and its associated impacts have only gotten worse in recent years.</p>
+
+
+
+<h2>Hiring in the Pandemic</h2>
+
+
+
+<p>Veracode, a 750-person cybersecurity firm based in Burlington, Massachusetts, is currently looking to staff up for dozens of positions —from programmers to sales people to cybersecurity roles. Covid has accelerated business shifts not only at the company but for many of its clients, says Chris Wysopal, founder and chief technology officer.</p>
+
+
+
+<p>“Companies are already dealing with remote workforces that were increasing in size—remote roles were increasing at most places, but then the whole company was remote. And so all of a sudden you had to deal with ‘How am I securing all the laptops that are there? How are all those employees getting in all the systems they need to access?’” Wysopal says. “It changed everything really, really quickly and cyber security people had to scramble, essentially, to make sure that that was all done well.”</p>
+
+
+
+<p>Hiring has become somewhat easier in recent months, Wysopal says, a silver lining in the face of a broader skilled talent shortage in the industry. As the pandemic forced closures and layoffs in all sectors of the economy, more cyber workers have become available and due to the nature of remote work, candidates that are outside of the area have become more appealing.</p>
+
+
+
+<p>“There’s no more requirement of being local,” he says. “I hired someone out of Utah, out of Texas—there are a lot of people around the country that want to work for a Boston-area tech company, and I find in cybersecurity, people like to work remote. And if we allow them to work remote, it’s easier to hire them.”</p>
+
+
+
+<p>As the world becomes ever more reliant on technology, Shearer is hopeful organizations will take lessons from the shift that has rocked the country due to Covid, and plan accordingly in the future.</p>
+
+
+
+<p>“There’s a lot of similarities between the pandemic and cyber in that it’s kind of a virus, it’s a bad thing that happens and it impacts people and it impacts their lives,” he says. “It doesn’t seem to get a lot of attention until something really bad happens, there’s a breach or something that costs a company a lot of money or a product or company embarrassment. It remains a challenge.”</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+	</channel>
+</rss>

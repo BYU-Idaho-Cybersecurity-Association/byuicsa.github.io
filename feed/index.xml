@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>CSA: Cyber Security Association @ BYU-Idaho</title>
+	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
+	<link>./../index.html</link>
+	<description></description>
+	<lastBuildDate>Tue, 18 May 2021 18:03:52 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.1</generator>
+
+<image>
+	<url>./../assets/images/cropped-icon-greensquare-32x32.png</url>
+	<title>CSA: Cyber Security Association @ BYU-Idaho</title>
+	<link>./../index.html</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Join Us (Spring 2021)!</title>
+		<link>./../news/join-us/index.html</link>
+		
+		<dc:creator><![CDATA[editorX]]></dc:creator>
+		<pubDate>Tue, 18 May 2021 18:03:48 +0000</pubDate>
+				<category><![CDATA[News]]></category>
+		<guid isPermaLink="false">./../index.html?p=775</guid>
+
+					<description><![CDATA[Are you curious? Do you like scavenger hunts, escape rooms, or other problem solving games? Do you have grit? If so, the come join BYU-I&#8217;s Cyber Security Association (CSA)! Why [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<figure class="wp-block-image size-large"><img width="692" height="384" src="./../assets/images/img-join.png" alt="" class="wp-image-776" srcset="./../assets/images/img-join.png 692w, ./../assets/images/img-join-300x166.png 300w, ./../assets/images/img-join-150x83.png 150w" sizes="(max-width: 692px) 100vw, 692px" /></figure>
+
+
+
+<p>Are you curious?  Do you like scavenger hunts, escape rooms, or other problem solving games?  Do you have grit?<br><br>If so, the come join BYU-I&#8217;s Cyber Security Association (CSA)!   <br><br>Why join?</p>
+
+
+
+<ul><li>Meet new people with common interests</li><li>Explore potential jobs in cyber security?</li><li>Learn some computer &#8220;hacking&#8221; skills</li><li>Learn to better solve problems</li><li>Be part of a team</li><li>Have fun in friendly games and competitions</li><li>Start your path from zero to cyber hero</li><li>4 Membership options to fit you needs</li><li>We want you!</li></ul>
+
+
+
+<h3><br><a href="http://www.byuicsa.org/join"><strong>www.byuicsa.org/join</strong></a></h3>
+
+
+
+<p>Not quite sure if you want to join?  Sign up as a &#8220;Friend of CSA&#8221; to stay informed of upcoming meetings and try us out.<a href="./../membership/index.html"> <strong><span style="text-decoration: underline;">It&#8217;s FREE!</span></strong></a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Apple pays 20 year old white-hat hacker and his team $288,000 for 3 months of work.</title>
+		<link>./../news/apple-bug-bounty2020/index.html</link>
+		
+		<dc:creator><![CDATA[. .]]></dc:creator>
+		<pubDate>Sun, 11 Oct 2020 02:08:42 +0000</pubDate>
+				<category><![CDATA[News]]></category>
+		<guid isPermaLink="false">./../index.html?p=1352</guid>
+
+					<description><![CDATA[Cyber Security specialists are needed.  "40 percent of security leaders in a recent study from Ostermann Research and Immersive Labs said they aren’t confident in their team of responders precisely because they feel security has failed to adapt to today’s threats."]]></description>
+										<content:encoded><![CDATA[
+<p class="has-drop-cap"><strong>Note from CSA Editor: </strong> Welcome to Bug Hunting! Sam Curry&#8217;s focus has been web applications + APIs + Security. There are a lot of ways to succeed in Cybersecurity. Sam is an example of one way you can do it.</p>
+
+
+
+<p><strong>Original Source:</strong> <br><a href="https://arstechnica.com/information-technology/2020/10/white-hat-hackers-who-had-control-of-internal-apple-network-get-288000-reward/" target="_blank" rel="noreferrer noopener">https://arstechnica.com/information-technology/2020/10/white-hat-hackers-who-had-control-of-internal-apple-network-get-288000-reward/</a></p>
+
+
+
+<h2>&#8220;In all, Curry’s team found and reported 55 vulnerabilities with the severity of 11 rated critical, 29 high, 13 medium, and two low.&#8221;</h2>
+
+
+
+<p>For months, Apple’s corporate network was at risk of hacks that could have stolen sensitive data from potentially millions of its customers and executed malicious code on their phones and computers, a security researcher said on Thursday.</p>
+
+
+
+<p><a href="https://twitter.com/samwcyo">Sam Curry</a>, a 20-year-old researcher who specializes in website security, said that, in total, he and his team found 55 vulnerabilities. He rated 11 of them critical because they allowed him to take control of core Apple infrastructure and from there steal private emails, iCloud data, and other private information.</p>
+
+
+
+<p>The 11 critical bugs were:</p>
+
+
+
+<ul><li>Remote Code Execution via Authorization and Authentication Bypass</li><li>Authentication Bypass via Misconfigured Permissions allows Global Administrator Access</li><li>Command Injection via Unsanitized Filename Argument</li><li>Remote Code Execution via Leaked Secret and Exposed Administrator Tool</li><li>Memory Leak leads to Employee and User Account Compromise allowing access to various internal applications</li><li>Vertica SQL Injection via Unsanitized Input Parameter</li><li>Wormable Stored XSS allows Attacker to Fully Compromise Victim iCloud Account</li><li>Wormable Stored XSS allows Attacker to Fully Compromise Victim iCloud Account</li><li>Full Response SSRF allows Attacker to Read Internal Source Code and Access Protected Resources</li><li>Blind XSS allows Attacker to Access Internal Support Portal for Customer and Employee Issue Tracking</li><li>Server-Side PhantomJS Execution allows attacker to Access Internal Resources and Retrieve AWS IAM Keys</li></ul>
+
+
+
+<p>&nbsp;</p>
+
+
+
+<p><img loading="lazy" width="800" height="534" class="wp-image-1353" style="width: 600px;" src="./../assets/images/news-applehacker.jpg" alt="" srcset="./../assets/images/news-applehacker.jpg 800w, ./../assets/images/news-applehacker-300x200.jpg 300w, ./../assets/images/news-applehacker-150x100.jpg 150w, ./../assets/images/news-applehacker-768x513.jpg 768w" sizes="(max-width: 800px) 100vw, 800px" />&nbsp;</p>
+
+
+
+<h2>Two of the worst</h2>
+
+
+
+<p>Among the most serious risks were those posed by a stored&nbsp;<a href="https://owasp.org/www-community/attacks/xss/">cross-site scripting vulnerability</a>&nbsp;(typically abbreviated as XSS) in JavaScript parser that’s used by the servers at www.iCloud.com. Because iCloud provides service to Apple Mail, the flaw could be exploited by sending someone with an iCloud.com or Mac.com address an email that included malicious characters.</p>
+
+
+
+<p>The target need only open the email to be hacked. Once that happened, a script hidden inside the malicious email allowed the hacker to carry out any actions the target could when accessing iCloud in the browser. Below is a video showing a proof-of-concept exploit that sent all of the target’s photos and contacts to the attacker.</p>
+
+
+
+<p>Curry said the stored XSS vulnerability was wormable, meaning it could spread from user to user when they did nothing more than open the malicious email. Such a worm would have worked by including a script that sent a similarly crafted email to every iCloud.com or Mac.com address in the victims’ contact list.</p>
+
+
+
+<p>A separate vulnerability, in a site reserved for Apple Distinguished Educators, was the result of it assigning a default password—“###INvALID#%!3” (not including the quotation marks)—when someone submitted an application that included a username, first and last name, email address, and employer.</p>
+
+
+
+<p>“If anyone had applied using this system and there existed functionality where you could manually authenticate, you could simply login to their account using the default password and completely bypass the ‘Sign In With Apple’ login,” Curry wrote.</p>
+
+
+
+<p>Eventually, the hackers were able to use bruteforcing to divine a user with the name “erb” and, with that, to manually log in to the user’s account. The hackers then went on to log in to several other user accounts, one of which had “core administrator” privileges on the network. The image below shows the Jive console, used to run online forums, that they saw.</p>
+
+
+
+<p>With control over the interface, the hackers could have executed arbitrary commands on the Web server controlling the ade.apple.com subdomain and accessed internal&nbsp;<a href="https://en.wikipedia.org/wiki/Lightweight_Directory_Access_Protocol">LDAP service</a>&nbsp;that stores user account credentials. With that, they could have accessed much of Apple’s remaining internal network.</p>
+
+
+
+<h2>Freaking out</h2>
+
+
+
+<p>In all, Curry’s team found and reported 55 vulnerabilities with the severity of 11 rated critical, 29 high, 13 medium, and two low. The list and the dates they were found are listed in Curry’s blog post, which is linked above.</p>
+
+
+
+<p>As the list above makes clear, the hacks detailed here are only two of a long list Curry and his team were able to carry out. They performed them under Apple’s bug-bounty program. Curry’s post said Apple paid a total of $51,500 in exchange for the private reports relating to four vulnerabilities.</p>
+
+
+
+<p>As I was in the process of reporting and writing this post, Curry said he received an email from Apple informing him that the company was paying an additional $237,000 for 28 other vulnerabilities.</p>
+
+
+
+<p>“My reply to the email was: ‘Wow! I am in a weird state of shock right now,’” Curry told me. “I’ve never been paid this much at once. Everyone in our group is still a bit freaking out.”</p>
+
+
+
+<p>He said he expects the total payout could exceed $500,000 once Apple digests all the reports.</p>
+
+
+
+<p><strong>Read the full article &#8211; here&#8230;</strong> <a href="https://www.scmagazine.com/home/security-news/whats-really-changed-three-years-after-equifax-breach/" target="_blank" rel="noreferrer noopener"><br></a><a href="https://arstechnica.com/information-technology/2020/10/white-hat-hackers-who-had-control-of-internal-apple-network-get-288000-reward/" target="_blank" rel="noreferrer noopener">https://arstechnica.com/information-technology/2020/10/white-hat-hackers-who-had-control-of-internal-apple-network-get-288000-reward/</a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Security Opportunity &#8220;What’s really changed three years after Equifax breach?&#8221;</title>
+		<link>./../news/security-opportunity-whats-really-changed-three-years-after-equifax-breach/index.html</link>
+		
+		<dc:creator><![CDATA[. .]]></dc:creator>
+		<pubDate>Mon, 14 Sep 2020 17:53:06 +0000</pubDate>
+				<category><![CDATA[News]]></category>
+		<guid isPermaLink="false">./../index.html?p=1296</guid>
+
+					<description><![CDATA[Cyber Security specialists are needed.  "40 percent of security leaders in a recent study from Ostermann Research and Immersive Labs said they aren’t confident in their team of responders precisely because they feel security has failed to adapt to today’s threats."]]></description>
+										<content:encoded><![CDATA[
+<p class="has-drop-cap"><strong>Note from CSA Editor: </strong>Good Cyber Security specialists are REALLY needed.  According to the article 40% of employers think their staff has failed to adapt.  The KEY to a successful cyber security operations is an continual improvement program, which means you should always be learning, testing new things in a lab, and strengthening your defenses.  The bigger the company, the more they are a target and the more they need someone like you.</p>
+
+
+
+<p><strong>Original Source &#8211; SC Magazine:</strong> <a rel="noreferrer noopener" href="https://www.scmagazine.com/home/security-news/whats-really-changed-three-years-after-equifax-breach/" target="_blank">https://www.scmagazine.com/home/security-news/whats-really-changed-three-years-after-equifax-breach/</a></p>
+
+
+
+<h2>&#8220;40 percent of security leaders in a recent study from Ostermann Research and Immersive Labs said they aren’t confident in their team of responders precisely because they feel security has failed to adapt to today’s threats.&#8221;</h2>
+
+
+
+<p>Are organizations better off today than they were three years ago when a devastating breach at Equifax exposed sensitive customer data and poor security practices in equal measure?</p>
+
+
+
+<p>The consensus among experts is that companies still have a ways to go.</p>
+
+
+
+<p>“Unfortunately, not much has changed,” said Greg Foss, senior threat researcher from VMware Carbon Black.</p>
+
+
+
+<p></p>
+
+
+
+<p><img loading="lazy" width="860" height="516" class="wp-image-1298" style="width: 600px;" src="./../assets/images/news-Opportunity.jpg" alt="" srcset="./../assets/images/news-Opportunity.jpg 860w, ./../assets/images/news-Opportunity-300x180.jpg 300w, ./../assets/images/news-Opportunity-150x90.jpg 150w, ./../assets/images/news-Opportunity-768x461.jpg 768w" sizes="(max-width: 860px) 100vw, 860px" /> </p>
+
+
+
+<p>“Cyber crisis response, sadly, currently lags the threat landscape,” said Max Vetter, chief cyber officer at Immersive Labs. “This is because it is still far too static, stored in a folder..only updated and tested at infrequent intervals.”</p>
+
+
+
+<h2>Patch Management</h2>
+
+
+
+<p><strong>Keep on patching. </strong>At its core, the attack on Equifax was “opportunistic and the result of a combination of vulnerabilities that often go unnoticed in many organizations that lack proper tooling and processes to prevent common but avoidable exposures such as default credentials and patch management,” said Foss.</p>
+
+
+
+<p><strong>Read the full article &#8211; here&#8230;</strong> <a rel="noreferrer noopener" href="https://www.scmagazine.com/home/security-news/whats-really-changed-three-years-after-equifax-breach/" target="_blank">https://www.scmagazine.com/home/security-news/whats-really-changed-three-years-after-equifax-breach/</a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>HELP WANTED ‘We are outnumbered’</title>
+		<link>./../news/help-wanted-we-are-outnumbered/index.html</link>
+		
+		<dc:creator><![CDATA[. .]]></dc:creator>
+		<pubDate>Mon, 07 Sep 2020 07:35:00 +0000</pubDate>
+				<category><![CDATA[News]]></category>
+		<guid isPermaLink="false">./../index.html?p=1166</guid>
+
+					<description><![CDATA[Cyber Security specialists are needed.  According to the article there are 2.4 million currently working in security and they need another 4 million people.  That's a lot of opportunity.   ]]></description>
+										<content:encoded><![CDATA[
+<p class="has-drop-cap"><strong>Note from CSA Editor: </strong>Cyber Security specialists are needed.  According to the article there are 2.4 million currently working in security and they need another 4 million people.  That&#8217;s a lot of opportunity.   In the CSA we will help introduce you to a career in cyber security as well as help develop skills that will make you a competitive candidate.  Not matter what your future job looks like, security will be part of it.  Accounting, human resources, as well as all of the technology related roles need people protecting data, employees, and companies from dishonest people who are attacking from around the globe.</p>
+
+
+
+<p><strong>Original Source:</strong> <a rel="noreferrer noopener" href="https://www.cnbc.com/2020/09/05/cyber-security-workers-in-demand.html" target="_blank">https://www.cnbc.com/2020/09/05/cyber-security-workers-in-demand.html</a></p>
+
+
+
+<h2>‘We are outnumbered’ — cybersecurity pros face a huge staffing shortage as attacks surge during the pandemic</h2>
+
+
+
+<p>The push to work from home during the coronavirus pandemic is straining cybersecurity professionals around the country tasked with ensuring workers are able to not only work efficiently from remote locations — but to do so safely. This rapid shift is a tall order for an industry that was already in need of skilled professionals long before the pandemic took hold.&nbsp;</p>
+
+
+
+<p><img loading="lazy" width="1280" height="720" class="wp-image-1172" style="width: 600px;" src="./../assets/images/news-jobs.jpg" alt="" srcset="./../assets/images/news-jobs.jpg 1280w, ./../assets/images/news-jobs-300x169.jpg 300w, ./../assets/images/news-jobs-1024x576.jpg 1024w, ./../assets/images/news-jobs-150x84.jpg 150w, ./../assets/images/news-jobs-768x432.jpg 768w" sizes="(max-width: 1280px) 100vw, 1280px" />&nbsp;</p>
+
+
+
+<p>Cybersecurity workers were taken off some or all of their typical security duties to assist with other IT-related tasks, including equipping mobile workforces, according to an April survey from global nonprofit (ISC)2, the largest association of certified cybersecurity professionals. The survey of 256 cyber pros found nearly half were re-tasked and that a quarter said cybersecurity incidents increased since the transition to remote work, with some seeing as many as double the number of incidents. Separate data from another nonprofit cybersecurity group, the Information Systems Security Association, found a 63% increase in cyberattacks related to the pandemic, calling Covid a “once-in-a-lifetime opportunity for hackers and online scammers.”</p>
+
+
+
+<p>“We are outnumbered—the people that are doing bad things, whether it’s a nation-state type of activity or cybercrime—the good guys and gals were vastly outnumbered prior to the pandemic,” says David Shearer, CEO of (ISC)2. “It has a compounding effect to what was already a challenge&#8230; take all of this technology we are becoming more and more reliant on and it’s scaling in a massive pace.”</p>
+
+
+
+<p>The group reported in late 2019 that 2.8 million professionals work in cybersecurity jobs globally, but the industry would need another 4 million trained workers in order to properly defend organizations and close the skills gap. That includes about half a million workers needed in the U.S. to&nbsp;<a href="https://www.cnbc.com/2019/11/01/jobs-companies-need-cybersecurity-workers-as-attacks-intensify.html">meet demand.</a>&nbsp;A separate survey of more than 300 cybersecurity professionals from ISSA shows that 70% of organizations report being impacted by the worker shortage and 45% of respondents say the cybersecurity skills shortage and its associated impacts have only gotten worse in recent years.</p>
+
+
+
+<h2>Hiring in the Pandemic</h2>
+
+
+
+<p>Veracode, a 750-person cybersecurity firm based in Burlington, Massachusetts, is currently looking to staff up for dozens of positions —from programmers to sales people to cybersecurity roles. Covid has accelerated business shifts not only at the company but for many of its clients, says Chris Wysopal, founder and chief technology officer.</p>
+
+
+
+<p>“Companies are already dealing with remote workforces that were increasing in size—remote roles were increasing at most places, but then the whole company was remote. And so all of a sudden you had to deal with ‘How am I securing all the laptops that are there? How are all those employees getting in all the systems they need to access?’” Wysopal says. “It changed everything really, really quickly and cyber security people had to scramble, essentially, to make sure that that was all done well.”</p>
+
+
+
+<p>Hiring has become somewhat easier in recent months, Wysopal says, a silver lining in the face of a broader skilled talent shortage in the industry. As the pandemic forced closures and layoffs in all sectors of the economy, more cyber workers have become available and due to the nature of remote work, candidates that are outside of the area have become more appealing.</p>
+
+
+
+<p>“There’s no more requirement of being local,” he says. “I hired someone out of Utah, out of Texas—there are a lot of people around the country that want to work for a Boston-area tech company, and I find in cybersecurity, people like to work remote. And if we allow them to work remote, it’s easier to hire them.”</p>
+
+
+
+<p>As the world becomes ever more reliant on technology, Shearer is hopeful organizations will take lessons from the shift that has rocked the country due to Covid, and plan accordingly in the future.</p>
+
+
+
+<p>“There’s a lot of similarities between the pandemic and cyber in that it’s kind of a virus, it’s a bad thing that happens and it impacts people and it impacts their lives,” he says. “It doesn’t seem to get a lot of attention until something really bad happens, there’s a breach or something that costs a company a lot of money or a product or company embarrassment. It remains a challenge.”</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>The Big Tesla Hack</title>
+		<link>./../news/the-big-tesla-hack/index.html</link>
+		
+		<dc:creator><![CDATA[editorX]]></dc:creator>
+		<pubDate>Sun, 06 Sep 2020 06:22:00 +0000</pubDate>
+				<category><![CDATA[News]]></category>
+		<guid isPermaLink="false">./../index.html?p=1149</guid>
+
+					<description><![CDATA[The Big Tesla Hack: A hacker gained control over the entire fleet, but fortunately he’s a good guy]]></description>
+										<content:encoded><![CDATA[<h5>CSA Editors note:</h5>
+<p>This article shows the advantage of learning to &#8220;hack&#8221;.  It is part of a bug bounty program from Tesla.  The goal of these &#8220;white hat hackers&#8221; (ethical &#8211; good guy hackers) is to find weaknesses in systems before the black hat hackers (bad guys) do.   This way the weaknesses can be strengthened and people and companies are safer.</p>
+<h3><a href="https://electrek.co/2020/08/27/tesla-hack-control-over-entire-fleet/">The Big Tesla Hack: A hacker gained control over the entire fleet, but fortunately he’s a good guy</a></h3>
+<p><img loading="lazy" class="aligncenter wp-image-1150 size-full" src="./../assets/images/news_bugBounty_Tesl.jpg" alt="" width="692" height="384" srcset="./../assets/images/news_bugBounty_Tesl.jpg 692w, ./../assets/images/news_bugBounty_Tesl-300x166.jpg 300w, ./../assets/images/news_bugBounty_Tesl-150x83.jpg 150w" sizes="(max-width: 692px) 100vw, 692px" />A few years ago, a hacker managed to exploit vulnerabilities in Tesla’s servers to gain access and control over the automaker’s entire fleet.</p>
+<p>He was an early member of the Tesla “root access” community, a group of Tesla owners who would hack their own cars to get more control over them and even unlock unreleased features.</p>
+<p>At the time, Hughes was using his knowledge to tinker with salvaged Tesla vehicles and build off-grid energy storage systems and electric conversion kits.</p>
+<p>He turned the hobby into a business selling Tesla parts from salvaged vehicles and building his own controllers to help people make cool projects out of those parts.</p>
+<p>He told Electrek:</p>
+<blockquote class="wp-block-quote"><p>“I found a hole in the server-side of that mechanism that allowed me to basically get data for every Supercharger worldwide about once every few minutes.”</p></blockquote>
+<p><img loading="lazy" class="alignleft wp-image-1151" src="./../assets/images/news-tesla01-137x300.jpg" alt="" width="274" height="600" srcset="./../assets/images/news-tesla01-137x300.jpg 137w, ./../assets/images/news-tesla01-468x1024.jpg 468w, ./../assets/images/news-tesla01-69x150.jpg 69w, ./../assets/images/news-tesla01-768x1681.jpg 768w, ./../assets/images/news-tesla01-702x1536.jpg 702w, ./../assets/images/news-tesla01.jpg 846w" sizes="(max-width: 274px) 100vw, 274px" />The hacker shared the data on the Tesla Motors Club forum, and the automaker seemingly wasn’t happy about it.</p>
+<p>The practice, known as whitehat hacking, wasn’t his main focus, but like most tech companies, Tesla has a bug reporting system in place to reward people who find and report vulnerabilities.</p>
+<p>It’s at that point that Hughes decided to compile a bug report (today he released an annotated version of<a href="https://t.co/zcEkZyq7Mq?amp=1" target="_blank" rel="noreferrer noopener" aria-label="undefined (opens in a new tab)"> the report</a>). Since he was already recently in contact with Tesla’s head of software security, who was Aaron Sigel at the time, he decided to email him directly with his finding.</p>
+<p>This was a big deal.</p>
+<p>Within minutes of receiving that email on that Friday afternoon in March of 2017, Sigel called Hughes.</p>
+<p>Now back then, Tesla’s autonomous capabilities were much more limited than the driver-assist features found in Tesla’s Autopilot and Full Self-Driving packages now.</p>
+<h2>Tesla Cybersecurity Today</h2>
+<p>The good news is that Tesla has since significantly increased its effort to secure its network and overall cybersecurity.</p>
+<p>The automaker <a href="https://bugcrowd.com/tesla" target="_blank" rel="noreferrer noopener" aria-label="undefined (opens in a new tab)">increased its max payout per reported bug</a> to $15,000 in 2018, and it has ramped up its security team as well as its relationship with hackers through participation in hacking conferences.</p>
+<p>Over the last few years, Tesla has brought its cars as targets in the popular <a href="https://electrek.co/2020/01/10/tesla-hacking-challenge/" target="_blank" rel="noreferrer noopener" aria-label="undefined (opens in a new tab)">Pwn2Own hacking competition</a>.</p>
+<p>David Lau, vice president of vehicle software at Tesla, recently commented on the effort:</p>
+<blockquote class="wp-block-quote"><p>We develop our cars with the highest standards of safety in every respect, and our work with the security research community is invaluable to us. Since launching our bug bounty program in 2014 — the first to include a connected consumer vehicle — we have continuously increased our investments into partnerships with security researchers to ensure that all Tesla owners constantly benefit from the brightest minds in the community. We look forward to learning about, and rewarding, great work in Pwn2Own so that we can continue to improve our products and our approach to designing inherently secure systems.</p></blockquote>
+<p>Also, Tesla owners will supposedly soon get two-factor authentication for their Tesla account.</p>
+<p><a href="https://electrek.co/2020/08/27/tesla-hack-control-over-entire-fleet"><span style="text-decoration: underline;"><strong>Continue reading &#8230;.</strong></span></a></p>
+<p><strong>Source:</strong> <a href="https://electrek.co/2020/08/27/tesla-hack-control-over-entire-fleet">https://electrek.co/2020/08/27/tesla-hack-control-over-entire-fleet</a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Virtual Career Fair 2020 &#8211; Cyber Security &#8211; (Post Event Update)</title>
+		<link>./../news/virtual-career-fair-2020-cyber-security-sept-4/index.html</link>
+		
+		<dc:creator><![CDATA[editorX]]></dc:creator>
+		<pubDate>Sun, 06 Sep 2020 05:02:00 +0000</pubDate>
+				<category><![CDATA[News]]></category>
+		<guid isPermaLink="false">./../index.html?p=587</guid>
+
+					<description><![CDATA[Update: 9/5/2020 If you are looking to work for a large company like Walmart, IBM AAA Automotive, Raytheon, SAIC, Disney or Verizon, then this is a great way to make [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>Update: 9/5/2020</p>
+<p>If you are looking to work for a large company like Walmart, IBM AAA Automotive, Raytheon, SAIC, Disney or Verizon, then this is a great way to make contacts and meet job hunters looking for new talent.&nbsp; If working for a government agency such as US Army, one of the 8 National Laboratories, FEMA, CISA, DIA/DOD, Department of Commerce, or even the NSA (National Security Agency), then attending the Virtual Career Fair 2021 may be great for you.&nbsp; This event only happens annually, but these employers are constantly looking for new talent both as full time and as internships.</p>
+<p>The event had 2 live video key notes speakers, a virtual exhibit hall,booths with interactive chat, contact information, pdfs, and LinkedIn profiles for key people. <img loading="lazy" class="aligncenter size-large wp-image-1162" src="./../assets/images/news-CyberFair2-1024x543.jpg" alt="" width="1024" height="543" srcset="./../assets/images/news-CyberFair2-1024x543.jpg 1024w, ./../assets/images/news-CyberFair2-300x159.jpg 300w, ./../assets/images/news-CyberFair2-150x80.jpg 150w, ./../assets/images/news-CyberFair2-768x407.jpg 768w, ./../assets/images/news-CyberFair2-1536x814.jpg 1536w, ./../assets/images/news-CyberFair2.jpg 1677w" sizes="(max-width: 1024px) 100vw, 1024px" /></p>
+<p><img loading="lazy" class="aligncenter wp-image-1161" src="./../assets/images/news-CyberFair-1024x566.png" alt="" width="600" height="331" srcset="./../assets/images/news-CyberFair-1024x566.png 1024w, ./../assets/images/news-CyberFair-300x166.png 300w, ./../assets/images/news-CyberFair-150x83.png 150w, ./../assets/images/news-CyberFair-768x424.png 768w, ./../assets/images/news-CyberFair-1536x848.png 1536w, ./../assets/images/news-CyberFair.png 1693w" sizes="(max-width: 600px) 100vw, 600px" /></p>
+<hr>
+<p><strong><em>The&nbsp;Centers of Academic Excellence (CAE) in Cybersecurity Community is hosting the fourth&nbsp;annual CAE Virtual Career Fair (VCF), sponsored by the&nbsp;<a href="https://ncyte.net/">National Cybersecurity Training and Education (NCyTE) Center&nbsp;</a>and the&nbsp;<a href="https://www.nsf.gov/">National Science Foundation (NSF)</a><a href="https://www.nsf.gov/">,</a>&nbsp;on September 4, 2020, from 9:00 am-1:00 pm PT.&nbsp;</em></strong>Our virtual career fair is unique in that we invite students/alumni from 300+ institutions designated as CAEs in Research (CAE-R), Cyber Defense Education (CAE-CDE), and Cyber Operations (CAE-CO)&nbsp;to participate. Institutions receive the CAE in Cybersecurity designation after meeting the rigorous requirements of the program set forth by the National Security Agency (NSA) and the Department of Homeland Security (DHS). The standards set forth by the NSA/DHS curriculum guidelines also ensure students from CAE institutions receive a quality cybersecurity education that prepares them for a career in the cyber workforce.</p>
+<p>As the CAE in Cybersecurity program continues to designate new CAEs, the number of students participating in the CAE VCF grows each year.&nbsp;<em><strong>Last year, 1200+ students/alumni participated in the CAE VCF.&nbsp;This year, the community has an estimated 10,000+ students graduating from junior colleges and universities seeking jobs in cybersecurity. In addition, our community has an estimated 20,000+ students that are eligible for internships in the 2020-2021 academic year.</strong></em>&nbsp;Students/alumni from CAE designated institutions are extremely valuable to any organization as they must meet the rigorous curriculum requirements set forth by the NSA/DHS to graduate.</p>
+<p>Survey data from the 2019&nbsp;event indicate both employers and students positively receive the CAE VCF. Many students find careers through the VCF,&nbsp;and many of the same employers return each year&nbsp;to participate.</p>
+<p>Click here for more information: <span style="text-decoration: underline;"><em><a href="https://www.caecommunity.org/news/cae-virtual-career-fair-2020">CAE Virtual Career Fair 2020 | CAE in Cybersecurity Community</a></em></span></p>
+<p><em>&nbsp;</em></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Pen Testers Who Got Arrested Doing Their Jobs Tell All</title>
+		<link>./../news/pen-testers-who-got-arrested-doing-their-jobs-tell-all/index.html</link>
+		
+		<dc:creator><![CDATA[editorX]]></dc:creator>
+		<pubDate>Wed, 05 Aug 2020 21:00:00 +0000</pubDate>
+				<category><![CDATA[News]]></category>
+		<guid isPermaLink="false">./../index.html?p=593</guid>
+
+					<description><![CDATA[Coalfire&#8217;s Gary De Mercurio and Justin Wynn share the details of their physical penetration-testing engagement gone wrong, as well as recommendations for protecting all red teamers. When they first scanned [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p><img loading="lazy" class="alignnone  wp-image-600" src="./../assets/images/image0-300x169.jpg" alt="" width="547" height="308" srcset="./../assets/images/image0-300x169.jpg 300w, ./../assets/images/image0-1024x576.jpg 1024w, ./../assets/images/image0-150x84.jpg 150w, ./../assets/images/image0-768x432.jpg 768w, ./../assets/images/image0-1536x864.jpg 1536w, ./../assets/images/image0-2048x1152.jpg 2048w" sizes="(max-width: 547px) 100vw, 547px" /></p>
+<p>Coalfire&#8217;s Gary De Mercurio and Justin Wynn share the details of their physical penetration-testing engagement gone wrong, as well as recommendations for protecting all red teamers.</p>
+<p class="">When they first scanned the cardkey to the front entrance of the Dallas County Courthouse in Iowa, red-team experts Gary De Mercurio and Justin Wynn didn&#8217;t hear the requisite click of a lock disengaging. It was after midnight on Sept. 11, 2019, the last leg of their penetration-testing engagement for the state of Iowa&#8217;s Judicial Branch, and they got their first big surprise of that&nbsp;<a href="https://www.darkreading.com/attacks-breaches/coalfire-ceo-wants-criminal-charges-against-his-employees-dropped/d/d-id/1336232" target="_blank" rel="noopener noreferrer">now-infamous evening</a>.</p>
+<p>&#8220;Justin grabs the door and we look at each other, and I said, &#8216;Did it work?&#8217; and he&#8217;s like, &#8216;No, it&#8217;s open,'&#8221; recalls De Mercurio, a senior manager at Coalfire. &#8220;The door was locked, but they hadn&#8217;t latched it all the way.&#8221;</p>
+<p>So the two social engineering and physical pen-test experts could get a more accurate take on the entrance security, Wynn closed the door and they started all over again with the cardkey, this time with the door locked. De Mercurio then slid a plastic cutting board retrofitted with a handy notch into the doorjamb and used it to unlatch the door. The pair figured they had somewhere between 20 to 30 seconds from then until the building alarm would sound, so they executed the usual next step in the physical testing process: checking the strength of the alarm&#8217;s passcode settings by first typing in the system&#8217;s default code as well as easy-to-guess combinations.</p>
+<p>Once the alarm sounded, the pair went back to work looking for other potential vulnerabilities in the courthouse while waiting to see if the authorities would respond. &#8230; Read the full story here: &nbsp;<em><a href="https://www.darkreading.com/vulnerabilities---threats/pen-testers-who-got-arrested-doing-their-jobs-tell-all/d/d-id/1338570">Pen Testers Who Got Arrested Doing Their Jobs Tell All</a></em></p>
+<p><em><img loading="lazy" class="alignnone" src="./../assets/images/dr-logo-1.jpg" alt="" width="136" height="136"><br />
+</em></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Password cracking with the Cyber Security Association</title>
+		<link>./../news/password-cracking-with-the-cyber-security-association/index.html</link>
+		
+		<dc:creator><![CDATA[editorX]]></dc:creator>
+		<pubDate>Thu, 20 Feb 2020 05:43:50 +0000</pubDate>
+				<category><![CDATA[News]]></category>
+		<guid isPermaLink="false">./../index.html?p=513</guid>
+
+					<description><![CDATA[Published by&#160;&#160;Holly Dorman&#160; Fingers tap-tap-tapped across keyboards. The team spoke in hushed voices as they worked to crack the password. The light from the projector and individual computer screens lit [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p><img loading="lazy" width="1024" height="768" class="wp-image-252" style="width: 600px;" src="./../assets/images/CSA-Meeting-scaled-1.jpg" alt="" srcset="./../assets/images/CSA-Meeting-scaled-1.jpg 1024w, ./../assets/images/CSA-Meeting-scaled-1-300x225.jpg 300w, ./../assets/images/CSA-Meeting-scaled-1-150x113.jpg 150w, ./../assets/images/CSA-Meeting-scaled-1-768x576.jpg 768w" sizes="(max-width: 1024px) 100vw, 1024px" /><br>Published by&nbsp;&nbsp;<a href="https://byuiscroll.org/author/holly-dorman/">Holly Dorman</a>&nbsp;<br><br><br>Fingers tap-tap-tapped across keyboards. The team spoke in hushed voices as they worked to crack the password.</p>
+
+
+
+<p>The light from the projector and individual computer screens lit up the room, casting shadows across faces.</p>
+
+
+
+<p>The BYU-Idaho Cyber Security Association teaches students of all skill levels about the different tools and techniques used in cybersecurity through hands-on experience. Student instructors taught participants how to crack passwords at their meeting on Feb. 13.</p>
+
+
+
+<p>“When I came to college, I knew I wanted to do something with computers,” said Justin Wilson, a junior studying computer information technology&nbsp;and CSA president. “Cybersecurity is something that has always fascinated me … I’d read stories in the news and stuff about things that were going on in cybersecurity, but I never really saw myself in the middle of that … Being in CSA has helped me come to realize that cybersecurity is what I want to do for a career.”</p>
+
+
+
+<p>CSA participates in different competitions across the country, the next one being the Pacific Rim Collegiate Cyber Defense Competition. Competitions like PRCCDC provide opportunities for students, including jobs, internships and the chance to have fun. More information about PRCCDC can be found on&nbsp;<a href="http://prccdc.org/" target="_blank" rel="noreferrer noopener">their website</a>.</p>
+
+
+
+<p>“Three years ago, we started to get more regularly engaged in competitions,” said Kory Godfrey, computer information technology department chair. “Competitions are sometimes described as ‘the bridge between an academic environment and the day-to-day everyday workplace.&#8217;”</p>
+
+
+
+<p>Potential employers also notice the extra effort to hone students’ skills.</p>
+
+
+
+<p>“We’ve had students put this on their resume and it really seems to set them apart from other job-seekers,” said Carl Gibbons, Computer Information Technology faculty member and advisor for CSA.</p>
+
+
+
+<p>Wilson hopes the idea of learning new skills will entice others to come and join CSA.</p>
+
+
+
+<p>“It doesn’t matter how much you know or how little you know,” Wilson said. “Just come. Just be here and learn.”<br><br>Source: <a href="https://byuiscroll.org/password-cracking-with-the-cyber-security-association/">https://byuiscroll.org/password-cracking-with-the-cyber-security-association/</a></p>
+
+
+
+<p>&nbsp;</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>BYU Idaho Student becomes SANS Finalist</title>
+		<link>./../news/byu-idaho-student-becomes-sans-finalist/index.html</link>
+		
+		<dc:creator><![CDATA[editorX]]></dc:creator>
+		<pubDate>Mon, 23 Sep 2019 05:35:00 +0000</pubDate>
+				<category><![CDATA[News]]></category>
+		<guid isPermaLink="false">./../index.html?p=510</guid>
+
+					<description><![CDATA[Justin Wilson of BYU-Idaho&#8217;s Cyber Security Association becomes one of the 100 Finalist to earn a SANS Scholarship worth over $22,000.&#160; Justin beat out over 13,000 other university students to [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p><img loading="lazy" class="aligncenter size-full wp-image-291" src="./../assets/images/logo-cyberfast2.png" alt="" width="687" height="332" srcset="./../assets/images/logo-cyberfast2.png 687w, ./../assets/images/logo-cyberfast2-300x145.png 300w, ./../assets/images/logo-cyberfast2-150x72.png 150w" sizes="(max-width: 687px) 100vw, 687px" /><br />
+Justin Wilson of BYU-Idaho&#8217;s Cyber Security Association becomes one of the 100 Finalist to earn a SANS Scholarship worth over $22,000.&nbsp; Justin beat out over 13,000 other university students to win the 2019 Challenge.</p>
+<blockquote><p>Cyber FastTrack is happy to announce that 100 exceptional participants have made it to the finish line! Scholarships for advanced cybersecurity training have been awarded to this select group of students who competed over several months to solve more than 250 cybersecurity challenges. Congratulations to the students who made the list of Cyber FastTrack Finalists!</p></blockquote>
+<p>Great job, Justin!</p>
+<p><strong><a href="https://www.sans.org/press/announcement/2019/10/03/1" target="_blank" rel="noopener noreferrer">https://www.sans.org/press/announcement/2019/10/03/1</a></strong></p>
+<p><span style="text-decoration: underline;"><strong><a href="https://medium.com/cyber-fasttrack/scholarships-awarded-to-100-cyber-fasttrack-finalists-287b209630" target="_blank" rel="noopener noreferrer">https://medium.com/cyber-fasttrack/scholarships-awarded-to-100-cyber-fasttrack-finalists-287b209630</a></strong></span></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+	</channel>
+</rss>
