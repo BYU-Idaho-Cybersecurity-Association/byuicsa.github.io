@@ -49,7 +49,9 @@
 <link rel="preload" href="./../wp-content/themes/HighendWP/assets/css/fonts/Museo500-Regular-webfont.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="./../wp-content/themes/HighendWP/assets/css/icons/fontawesome-webfont.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="./../wp-content/themes/HighendWP/assets/css/icons/Icomoon.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="./../wp-content/themes/HighendWP/assets/css/icons/hbicons.woff2" as="font" type="font/woff2" crossorigin>			<style type="text/css">body, .team-position, .hb-single-next-prev .text-inside, .hb-dropdown-box.cart-dropdown .buttons a, input[type=text], textarea, input[type=email], input[type=password], input[type=tel], #fancy-search input[type=text], #fancy-search .ui-autocomplete li .search-title, .format-quote .quote-post-wrapper blockquote, table th, .hb-button, .woocommerce #payment #place_order, .woocommerce-page #payment #place_order, input[type=submit], a.read-more, blockquote.pullquote, blockquote, .hb-skill-meter .hb-skill-meter-title, .hb-tabs-wrapper .nav-tabs li a, #main-wrapper .coupon-code input.button,#main-wrapper .form-row input.button,#main-wrapper input.checkout-button,#main-wrapper input.hb-update-cart,.woocommerce-page #main-wrapper .shipping-calculator-form-hb button.button, .hb-accordion-pane, .hb-accordion-tab {
+<link rel="preload" href="./../wp-content/themes/HighendWP/assets/css/icons/hbicons.woff2" as="font" type="font/woff2" crossorigin>			
+	<style type="text/css">
+		body, .team-position, .hb-single-next-prev .text-inside, .hb-dropdown-box.cart-dropdown .buttons a, input[type=text], textarea, input[type=email], input[type=password], input[type=tel], #fancy-search input[type=text], #fancy-search .ui-autocomplete li .search-title, .format-quote .quote-post-wrapper blockquote, table th, .hb-button, .woocommerce #payment #place_order, .woocommerce-page #payment #place_order, input[type=submit], a.read-more, blockquote.pullquote, blockquote, .hb-skill-meter .hb-skill-meter-title, .hb-tabs-wrapper .nav-tabs li a, #main-wrapper .coupon-code input.button,#main-wrapper .form-row input.button,#main-wrapper input.checkout-button,#main-wrapper input.hb-update-cart,.woocommerce-page #main-wrapper .shipping-calculator-form-hb button.button, .hb-accordion-pane, .hb-accordion-tab {
 						font-family: "Roboto", sans-serif;
 						font-size: 15px;
 						line-height: 25px;
@@ -79,59 +81,23 @@
 						line-height: 20px;
 						letter-spacing: 0px;
 						font-weight: normal;
-					}</style>
-			<meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress.">
-<meta name="generator" content="Powered by Slider Revolution 6.2.22 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface.">
+					}
+	 #secretMessage {
+            display: none;
+            margin-top: 20px;
+            font-size: 1.2em;
+            color: green;
+        }
+        #errorMessage a {
+            color: blue;
+            text-decoration: underline;
+        }
+	</style>
+
 <link rel="icon" href="./../assets/images/cropped-icon-greensquare-32x32.png" sizes="32x32">
 <link rel="icon" href="./../assets/images/cropped-icon-greensquare-192x192.png" sizes="192x192">
 <link rel="apple-touch-icon" href="./../assets/images/cropped-icon-greensquare-180x180.png">
 <meta name="msapplication-TileImage" content="./assets/images/cropped-icon-greensquare-270x270.png">
-	<script>
-    const unlockForm = document.getElementById('unlockForm');
-    const passwordInput = document.getElementById('passwordInput');
-    const secretMessage = document.getElementById('secretMessage');
-    const errorMessage = document.getElementById('errorMessage');
-
-    // Base64 encoded secret message
-    const encodedMessage = "Q29uZ3JhdHVsYXRpb25zIHlvdSBjb21wbGV0ZWQgeW91ciBmaXJzdCBDVEYgLSBDYXB0dXJlIHRoZSBGbGFnLiAgRW1haWwgZGFyMTkwMDYgYXQgYnl1aSBkb3QgZWR1IHdpdGggc3ViamVjdCBDVEYgQ2hhbXA=";
-
-    // Pre-hashed password using SHA-256 (this hash corresponds to the string 'password')
-    const correctPasswordHash = "5e884898da28047151d0e56f8dc6292773603d0d6aabbdd23f4b4967f03c13c8";
-
-    // Function to convert ArrayBuffer to hex string
-    function arrayBufferToHex(buffer) {
-        return [...new Uint8Array(buffer)]
-            .map(b => b.toString(16).padStart(2, '0'))
-            .join('');
-    }
-
-    // Function to hash input using SHA-256
-    async function hashPassword(password) {
-        const encoder = new TextEncoder();
-        const data = encoder.encode(password);
-        const hashBuffer = await crypto.subtle.digest('SHA-256', data);
-        return arrayBufferToHex(hashBuffer);
-    }
-
-    unlockForm.addEventListener('submit', async function(event) {
-        event.preventDefault();
-        const password = passwordInput.value;
-        
-        // Hash the entered password
-        const hashedPassword = await hashPassword(password);
-
-        // Check if the hashed password matches the pre-hashed value
-        if (hashedPassword === correctPasswordHash) {
-            const decodedMessage = atob(encodedMessage); // Decode the message
-            secretMessage.textContent = decodedMessage;
-            secretMessage.style.display = 'block';
-            errorMessage.textContent = '';
-        } else {
-            errorMessage.textContent = 'Incorrect password. Try again! - Try Top 10 Most Used Passwords https://en.wikipedia.org/wiki/Wikipedia:10,000_most_common_passwords';
-            secretMessage.style.display = 'none';
-        }
-    });
-</script>
 <script type="text/javascript">function setREVStartSize(e){
 			//window.requestAnimationFrame(function() {				 
 				window.RSIW = window.RSIW===undefined ? window.innerWidth : window.RSIW;	
@@ -306,7 +272,7 @@
 
 			
 <div class="container">
-    <h1>Last Challenge: Unlock the Secret Message</h1>
+    <h1>Unlock the Secret Message</h1>
     <form id="unlockForm">
         <input type="password" id="passwordInput" placeholder="Enter password">
         <button type="submit">Unlock</button>
@@ -314,6 +280,57 @@
     <p id="errorMessage" style="color: red;"></p>
     <div id="secretMessage"></div>
 </div>
+
+<script>
+    const unlockForm = document.getElementById('unlockForm');
+    const passwordInput = document.getElementById('passwordInput');
+    const secretMessage = document.getElementById('secretMessage');
+    const errorMessage = document.getElementById('errorMessage');
+
+    // Base64 encoded secret message
+    const encodedMessage = "Q29uZ3JhdHVsYXRpb25zIHlvdSBjb21wbGV0ZWQgeW91ciBmaXJzdCBDVEYgLSBDYXB0dXJlIHRoZSBGbGFnLiAgRW1haWwgZGFyMTkwMDYgYXQgYnl1aSBkb3QgZWR1IHdpdGggc3ViamVjdCBDVEYgQ2hhbXA=";
+
+    // Pre-hashed password using SHA-256 (hash of 'password')
+    const correctPasswordHash = "5e884898da28047151d0e56f8dc6292773603d0d6aabbdd23f4b4967f03c13c8";
+
+    // Function to convert ArrayBuffer to hex string
+    function arrayBufferToHex(buffer) {
+        return [...new Uint8Array(buffer)]
+            .map(b => b.toString(16).padStart(2, '0'))
+            .join('');
+    }
+
+    // Function to hash input using SHA-256
+    async function hashPassword(password) {
+        const encoder = new TextEncoder();
+        const data = encoder.encode(password);
+        const hashBuffer = await crypto.subtle.digest('SHA-256', data);
+        return arrayBufferToHex(hashBuffer);
+    }
+
+    unlockForm.addEventListener('submit', async function(event) {
+        event.preventDefault();
+        const password = passwordInput.value;
+        
+        // Hash the entered password
+        const hashedPassword = await hashPassword(password);
+
+        // Check if the hashed password matches the pre-hashed value
+        if (hashedPassword === correctPasswordHash) {
+            const decodedMessage = atob(encodedMessage); // Decode the message
+            secretMessage.textContent = decodedMessage;
+            secretMessage.style.display = 'block';
+            errorMessage.textContent = '';
+        } else {
+            // Display error message with clickable URL
+            errorMessage.innerHTML = `Incorrect password. Try again! - 
+            <a href="https://en.wikipedia.org/wiki/Wikipedia:10,000_most_common_passwords" target="_blank">
+                Try Top 10 Most Used Passwords
+            </a>`;
+            secretMessage.style.display = 'none';
+        }
+    });
+</script>
 
 
 
