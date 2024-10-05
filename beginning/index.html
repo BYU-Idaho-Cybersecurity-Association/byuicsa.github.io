@@ -272,7 +272,7 @@
 
 			
 <div class="container">
-    <h1>Unlock the Secret Message</h1>
+    <h1>Final Challenge: Unlock the Secret Message</h1>
     <form id="unlockForm">
         <input type="password" id="passwordInput" placeholder="Enter password">
         <button type="submit">Unlock</button>
@@ -290,8 +290,8 @@
     // Base64 encoded secret message
     const encodedMessage = "Q29uZ3JhdHVsYXRpb25zIHlvdSBjb21wbGV0ZWQgeW91ciBmaXJzdCBDVEYgLSBDYXB0dXJlIHRoZSBGbGFnLiAgRW1haWwgZGFyMTkwMDYgYXQgYnl1aSBkb3QgZWR1IHdpdGggc3ViamVjdCBDVEYgQ2hhbXA=";
 
-    // Pre-hashed password using SHA-256 (hash of 'password')
-    const correctPasswordHash = "5e884898da28047151d0e56f8dc6292773603d0d6aabbdd23f4b4967f03c13c8";
+    // Pre-hashed password using SHA-256
+    const correctPasswordHash = "5e884898da28047151d0e56f8dc6292773603d0d6aabbdd62a11ef721d1542d8";
 
     // Function to convert ArrayBuffer to hex string
     function arrayBufferToHex(buffer) {
