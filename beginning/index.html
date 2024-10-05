@@ -86,6 +86,52 @@
 <link rel="icon" href="./../assets/images/cropped-icon-greensquare-192x192.png" sizes="192x192">
 <link rel="apple-touch-icon" href="./../assets/images/cropped-icon-greensquare-180x180.png">
 <meta name="msapplication-TileImage" content="./assets/images/cropped-icon-greensquare-270x270.png">
+	<script>
+    const unlockForm = document.getElementById('unlockForm');
+    const passwordInput = document.getElementById('passwordInput');
+    const secretMessage = document.getElementById('secretMessage');
+    const errorMessage = document.getElementById('errorMessage');
+
+    // Base64 encoded secret message
+    const encodedMessage = "Q29uZ3JhdHVsYXRpb25zIHlvdSBjb21wbGV0ZWQgeW91ciBmaXJzdCBDVEYgLSBDYXB0dXJlIHRoZSBGbGFnLiAgRW1haWwgZGFyMTkwMDYgYXQgYnl1aSBkb3QgZWR1IHdpdGggc3ViamVjdCBDVEYgQ2hhbXA=";
+
+    // Pre-hashed password using SHA-256 (this hash corresponds to the string 'password')
+    const correctPasswordHash = "5e884898da28047151d0e56f8dc6292773603d0d6aabbdd23f4b4967f03c13c8";
+
+    // Function to convert ArrayBuffer to hex string
+    function arrayBufferToHex(buffer) {
+        return [...new Uint8Array(buffer)]
+            .map(b => b.toString(16).padStart(2, '0'))
+            .join('');
+    }
+
+    // Function to hash input using SHA-256
+    async function hashPassword(password) {
+        const encoder = new TextEncoder();
+        const data = encoder.encode(password);
+        const hashBuffer = await crypto.subtle.digest('SHA-256', data);
+        return arrayBufferToHex(hashBuffer);
+    }
+
+    unlockForm.addEventListener('submit', async function(event) {
+        event.preventDefault();
+        const password = passwordInput.value;
+        
+        // Hash the entered password
+        const hashedPassword = await hashPassword(password);
+
+        // Check if the hashed password matches the pre-hashed value
+        if (hashedPassword === correctPasswordHash) {
+            const decodedMessage = atob(encodedMessage); // Decode the message
+            secretMessage.textContent = decodedMessage;
+            secretMessage.style.display = 'block';
+            errorMessage.textContent = '';
+        } else {
+            errorMessage.textContent = 'Incorrect password. Try again! - Try Top 10 Most Used Passwords https://en.wikipedia.org/wiki/Wikipedia:10,000_most_common_passwords';
+            secretMessage.style.display = 'none';
+        }
+    });
+</script>
 <script type="text/javascript">function setREVStartSize(e){
 			//window.requestAnimationFrame(function() {				 
 				window.RSIW = window.RSIW===undefined ? window.innerWidth : window.RSIW;	
@@ -259,13 +305,17 @@
 		<div class="row main-row fullwidth">
 
 			
-				<div id="page-1092" class="post-1092 page type-page status-publish post-password-required hentry wpautop">
-				
-					<div class="hb-main-content col-12">
-					<form action="./wp-login.php?action=postpass" class="post-password-form" method="post">
-<p>This content is password protected. To view it please enter your password below:</p>
-<p><label for="pwbox-1092">Password: <input name="post_password" id="pwbox-1092" type="password" size="20"></label> <input type="submit" name="Submit" value="Enter"></p>
-</form>
+<div class="container">
+    <h1>Last Challenge: Unlock the Secret Message</h1>
+    <form id="unlockForm">
+        <input type="password" id="passwordInput" placeholder="Enter password">
+        <button type="submit">Unlock</button>
+    </form>
+    <p id="errorMessage" style="color: red;"></p>
+    <div id="secretMessage"></div>
+</div>
+
+
 
 					</div>
 <!-- END .hb-main-content -->				
@@ -334,7 +384,7 @@ We accomplish this through competitions, learning activities, special guest spea
 	<div class="container">
 
 		<div id="copyright-text">
-			<p>© 2018-2023 · BYU Idaho - Cyber Security Association</p>		</div>
+			<p>© 2018-2024 · BYU Idaho - Cyber Security Association</p>		</div>
 <!-- END #copyright-text -->
 
 		
